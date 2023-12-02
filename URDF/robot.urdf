@@ -1,0 +1,222 @@
+<?xml version="1.0"?>
+<robot name="arsa">
+
+  <link name="robot_base">
+    <visual>
+      <geometry>
+        <mesh filename="C:\Users\srkia\OneDrive\Documents\Dimplomski\URDF\robot_body.stl"/>
+      </geometry>
+      <origin rpy=" 0 0 0" xyz="0 0 0"/>
+      <material name="Gray">
+        <color rgba=".7 .7 .7 1"/>
+      </material>
+    </visual>
+
+    <inertial>
+      <mass value="1"/>
+      <inertia ixx="1.0" ixy="0.0" ixz="0.0" iyy="1.0" iyz="0.0" izz="1.0"/>
+    </inertial>
+
+  </link>
+
+  <link name="robot_link_1_1">
+    <visual>
+      <geometry>
+        <mesh filename="C:\Users\srkia\OneDrive\Documents\Dimplomski\URDF\clan_ax.stl"/>
+      </geometry>
+      <!-- <origin rpy=" 0 0 2.35619449" xyz="8.111 9.481 -1.149"/> -->
+      <origin rpy=" 0 0 0.785398163" xyz="74 74 60.851"/>
+
+      <material name="Black">
+        <color rgba=".1 .1 .1 1"/>
+      </material>
+    </visual>
+
+    <inertial>
+      <mass value="0.1"/>
+      <inertia ixx="1.0" ixy="0.0" ixz="0.0" iyy="1.0" iyz="0.0" izz="1.0"/>
+    </inertial>
+
+  </link>
+
+  <link name="robot_link_1_2">
+    <visual>
+      <geometry>
+        <mesh filename="C:\Users\srkia\OneDrive\Documents\Dimplomski\URDF\clan_ax.stl"/>
+      </geometry>
+      <!-- <origin rpy=" 0 0 2.35619449" xyz="8.111 9.481 -1.149"/> -->
+      <origin rpy=" 0 0 2.35619449" xyz="-74 74 60.851"/>
+
+      <material name="Black">
+        <color rgba=".1 .1 .1 1"/>
+      </material>
+    </visual>
+
+    <inertial>
+      <mass value="0.1"/>
+      <inertia ixx="1.0" ixy="0.0" ixz="0.0" iyy="1.0" iyz="0.0" izz="1.0"/>
+    </inertial>
+
+  </link>
+
+  <link name="robot_link_1_3">
+    <visual>
+      <geometry>
+        <mesh filename="C:\Users\srkia\OneDrive\Documents\Dimplomski\URDF\clan_ax.stl"/>
+      </geometry>
+      <!-- <origin rpy=" 0 0 2.35619449" xyz="8.111 9.481 -1.149"/> -->
+      <origin rpy=" 0 0 3.92699082" xyz="-74 -74 60.851"/>
+
+      <material name="Black">
+        <color rgba=".1 .1 .1 1"/>
+      </material>
+    </visual>
+
+    <inertial>
+      <mass value="0.1"/>
+      <inertia ixx="1.0" ixy="0.0" ixz="0.0" iyy="1.0" iyz="0.0" izz="1.0"/>
+    </inertial>
+
+  </link>
+
+  <link name="robot_link_1_4">
+    <visual>
+      <geometry>
+        <mesh filename="C:\Users\srkia\OneDrive\Documents\Dimplomski\URDF\clan_ax.stl"/>
+      </geometry>
+      <!-- <origin rpy=" 0 0 2.35619449" xyz="8.111 9.481 -1.149"/> -->
+      <origin rpy=" 0 0 5.49778714" xyz="74 -74 60.851"/>
+
+      <material name="Black">
+        <color rgba=".1 .1 .1 1"/>
+      </material>
+    </visual>
+
+    <inertial>
+      <mass value="0.1"/>
+      <inertia ixx="1.0" ixy="0.0" ixz="0.0" iyy="1.0" iyz="0.0" izz="1.0"/>
+    </inertial>
+
+  </link>
+
+    <link name="robot_link_2_1">
+    <visual>
+      <geometry>
+        <mesh filename="C:\Users\srkia\OneDrive\Documents\Dimplomski\URDF\clan_zuti.stl"/>
+      </geometry>
+      <!-- <origin rpy=" 3.1415926 0.785398163 0.785398163" xyz="77 81 80"/> -->
+        <origin rpy=" 3.1415926 0.785398163 0.785398163" xyz="84 85 80"/>
+
+      <material name="Yellow">
+        <color rgba=".8 .8 0 1"/>
+      </material>
+    </visual>
+
+    <inertial>
+      <mass value="0.15"/>
+      <inertia ixx="1.0" ixy="0.0" ixz="0.0" iyy="1.0" iyz="0.0" izz="1.0"/>
+    </inertial>
+
+  </link>
+
+      <link name="robot_link_2_2">
+    <visual>
+      <geometry>
+        <mesh filename="C:\Users\srkia\OneDrive\Documents\Dimplomski\URDF\clan_zuti.stl"/>
+      </geometry>
+      <!-- <origin rpy=" 3.1415926 0.785398163 0.785398163" xyz="77 81 80"/> -->
+        <origin rpy=" 3.1415926 0.785398163 2.35619449" xyz="-84 85 80"/>
+
+      <material name="Yellow">
+        <color rgba=".8 .8 0 1"/>
+      </material>
+    </visual>
+
+    <inertial>
+      <mass value="0.15"/>
+      <inertia ixx="1.0" ixy="0.0" ixz="0.0" iyy="1.0" iyz="0.0" izz="1.0"/>
+    </inertial>
+
+  </link>
+
+      <link name="robot_link_2_3">
+    <visual>
+      <geometry>
+        <mesh filename="C:\Users\srkia\OneDrive\Documents\Dimplomski\URDF\clan_zuti.stl"/>
+      </geometry>
+      <!-- <origin rpy=" 3.1415926 0.785398163 0.785398163" xyz="77 81 80"/> -->
+        <origin rpy=" 3.1415926 0.785398163 3.92699082" xyz="-84 -85 80"/>
+
+      <material name="Yellow">
+        <color rgba=".8 .8 0 1"/>
+      </material>
+    </visual>
+
+    <inertial>
+      <mass value="0.15"/>
+      <inertia ixx="1.0" ixy="0.0" ixz="0.0" iyy="1.0" iyz="0.0" izz="1.0"/>
+    </inertial>
+
+  </link>
+
+      <link name="robot_link_2_4">
+    <visual>
+      <geometry>
+        <mesh filename="C:\Users\srkia\OneDrive\Documents\Dimplomski\URDF\clan_zuti.stl"/>
+      </geometry>
+      <!-- <origin rpy=" 3.1415926 0.785398163 0.785398163" xyz="77 81 80"/> -->
+        <origin rpy=" 3.1415926 0.785398163 5.49778714" xyz="84 -85 80"/>
+
+      <material name="Yellow">
+        <color rgba=".8 .8 0 1"/>
+      </material>
+    </visual>
+
+    <inertial>
+      <mass value="0.15"/>
+      <inertia ixx="1.0" ixy="0.0" ixz="0.0" iyy="1.0" iyz="0.0" izz="1.0"/>
+    </inertial>
+
+  </link>
+
+  <joint name="joint_1_1_base" type="fixed">
+    <parent link="robot_base"/>
+    <child link="robot_link_1_1"/>
+  </joint>
+
+  <joint name="joint_1_2_base" type="fixed">
+    <parent link="robot_base"/>
+    <child link="robot_link_1_2"/>
+  </joint>
+
+  <joint name="joint_1_3_base" type="fixed">
+    <parent link="robot_base"/>
+    <child link="robot_link_1_3"/>
+  </joint>
+
+  <joint name="joint_1_4_base" type="fixed">
+    <parent link="robot_base"/>
+    <child link="robot_link_1_4"/>
+  </joint>
+
+  <joint name="joint_2_1_joint_1_1" type="fixed">
+    <parent link="robot_link_1_1"/>
+    <child link="robot_link_2_1"/>
+  </joint>
+
+  <joint name="joint_2_2_joint_1_2" type="fixed">
+    <parent link="robot_link_1_2"/>
+    <child link="robot_link_2_2"/>
+  </joint>
+
+  <joint name="joint_2_3_joint_1_3" type="fixed">
+    <parent link="robot_link_1_3"/>
+    <child link="robot_link_2_3"/>
+  </joint>
+
+  <joint name="joint_2_4_joint_1_4" type="fixed">
+    <parent link="robot_link_1_4"/>
+    <child link="robot_link_2_4"/>
+  </joint>
+
+</robot>
